@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#6ABF4E ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 350px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#name{
+    width: 75%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    background-color: #D0D0D0;
+    margin-left: 20px;
+}
+
+#email{
+    width: 75%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    background-color: #D0D0D0;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #00B241;
+    color: #fff;
+    margin-left: 20px;
+    border: none;
+    padding: 20px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 86%;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.account{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+a{
+    color: #00B241;
+}
